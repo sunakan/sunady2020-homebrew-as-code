@@ -1,0 +1,14 @@
+= homebrew as code(macenv as code?)
+
+== 以下をコードで管理したい
+
+* HomeBrewで入れるパッケージ群
+* Macに入れるGUIアプリ
+
+== 前提
+
+* MacOS
+
+== 参考
+
+include::https://github.com/Homebrew/homebrew-bundle[]
