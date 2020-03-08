@@ -8,6 +8,7 @@ brew "docker", link: false
 brew "ffmpeg"
 brew "git"
 brew "git-secrets"
+brew "graphviz"
 brew "jq"
 brew "mas"
 brew "nkf"
