@@ -11,6 +11,18 @@
 * Macをクリーンインストールした時
 * MacのアプリをポチポチDLして入れたくない時
 
+== Brewfileにない、brewで管理しているパッケージを削除
+
+.確認するだけ
+----
+$ brew bundle cleanup
+----
+
+.実行!!
+----
+$ brew bundle cleanup --force
+----
+
 == 参考
 
 include::https://github.com/Homebrew/homebrew-bundle[]
