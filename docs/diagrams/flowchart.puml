@@ -1,0 +1,20 @@
+@startuml
+skinparam shadowing false
+
+start
+
+if (既にHomeBrewを利用している?) then (yes)
+  :brew bundle dump --force;
+else (no)
+  :HomeBrewをインストール;
+  :touch Brewfile;
+endif
+
+:Brewfileを編集;
+
+:brew update;
+
+:brew bundle;
+
+stop
+@enduml
