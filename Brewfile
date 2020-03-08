@@ -1,31 +1,28 @@
-cask_args appdir: "/Applications"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
-
 brew "awscli"
 brew "bash-completion"
-brew "docker"
+brew "docker", link: false
 brew "ffmpeg"
 brew "git"
 brew "git-secrets"
 brew "jq"
 brew "mas"
 brew "nkf"
+brew "sshpass"
+brew "sshrc"
 brew "tig"
 brew "tmux"
-brew "sshrc"
-brew "sshpass"
 brew "tree"
 brew "vim"
 brew "watch"
 brew "wget"
 brew "yq"
-
 cask "adoptopenjdk"
-cask "alfred"
 cask "alacritty"
+cask "alfred"
 cask "bettertouchtool"
 cask "brave-browser"
 cask "discord"
@@ -39,8 +36,8 @@ cask "smcfancontrol"
 cask "vagrant"
 cask "virtualbox"
 cask "visual-studio-code"
-
 mas "BetterSnapTool", id: 417375580
 mas "Bitwarden", id: 1352778147
-mas "Slack", id: 803453959
+mas "Foxit Reader", id: 1032155965
 mas "MonitorPlus", id: 568619248
+mas "Slack", id: 803453959
