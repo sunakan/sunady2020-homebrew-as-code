@@ -27,6 +27,12 @@ $ brew bundle cleanup
 $ brew bundle cleanup --force
 ----
 
+== xquartsを入れた場合
+
+----
+$ sudo launchctl load -w /Library/LaunchAgents/org.macosforge.xquartz.startx.plist
+----
+
 == 参考
 
 * link:https://github.com/Homebrew/homebrew-bundle[]
